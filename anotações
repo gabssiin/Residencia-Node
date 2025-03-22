@@ -1,0 +1,28 @@
+Sempre que importar um modulo node colocar o node: antes da importação dos modulos internos
+
+metodos mais importantes // 
+get, busca informações/recurso do backend
+post, cria informações/recurso no backend
+put, atualiza informações/recurso no backend, usaremos quando precisar atualizar uma entidade quase por completo
+patch, atualiza uma informação especifica de um recurso no backend
+delete, deleta um recurso ou informação do backend
+
+
+Stateful vs. Stateless: O Essencial
+Stateless (Bom):
+Não guarda nada do cliente.
+Cada requisição é completa.
+Escala fácil.
+Resistente a falhas.
+
+Stateful (Cuidado):
+"Lembra" do cliente.
+Complexo, difícil de escalar.
+Vulnerável a falhas.
+Solução: Use bancos de dados/caches para o que precisa "lembrar". Prefira stateless sempre que possível.
+
+Usaremos JSON para converter o users(dados,arrays, tipos primitivos) dentro de uma string
+
+* CABEÇALHOS (requisição\resposta) => METADADOS
+
+HEADERS MDN em apis padrao
